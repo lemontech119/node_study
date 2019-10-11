@@ -1,6 +1,6 @@
 const { Router } = require('express');
 const validateTodo = require('../middlewares/validate.todo');
-const TodoController = require('../controller/TodoController');
+const TodoController = require('../controllers/TodoController');
 
 const router = Router();
 

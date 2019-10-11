@@ -11,11 +11,11 @@ class BaseRepository {
     }
 
     find(){
-        return this.model.value();
+        return this.models.value();
     }
     
     fingById(id){
-        return this.model.find({id}).value();
+        return this.models.find({id}).value();
     } 
 
     update(id, data){

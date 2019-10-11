@@ -1,10 +1,10 @@
-const TodiRepository = require('../database/repositories/TodoRepository');
+const TodoRepository = require('../database/repositories/TodoRepository');
 const Todo = require('../models/Todo');
 
 class TodoService{
 
     constructor(){
-        this.todoRepository = new this.todoRepository();
+        this.todoRepository = new TodoRepository();
     }
 
     create(title, description){
