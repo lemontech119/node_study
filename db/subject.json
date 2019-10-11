@@ -1,12 +1,11 @@
 {
-  "todos": [
+  "todos": [],
+  "users": [
     {
-      "id": "1570778020415",
-      "isDone": false
-    },
-    {
-      "id": "1570778161009",
-      "isDone": false
+      "id": "testId",
+      "name": "testName",
+      "password": "testPass",
+      "role": "normal"
     }
   ]
 }

@@ -2,6 +2,10 @@ const TodoService = require('../services/TodoService');
 
 const createTodo = (req, res) =>{
     const todoService = new TodoService();
+    console.log(req.body);
+    console.log("왜 안되는 거지?");
+    console.log(req.body.title);
+
     const todo = todoService.create(req.body.title, req.body.description);
     res.send({
         data: todo.toJSON()
