@@ -22,8 +22,8 @@ class BaseRepository {
         return this.models.find({ id }).assign(data).write();
     }
 
-    delete(id){
-        return this.models.find({ id }).write();
+    delete(deleteId){
+        return this.models.remove({ id : deleteId }).write();
     }
 }
 
